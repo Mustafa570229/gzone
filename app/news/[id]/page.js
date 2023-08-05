@@ -16,7 +16,10 @@ export default async function ({ params }) {
     <>
 
     <div className={styles.singlenews} >
-      <h1 style={{textAlign:"right", background: "hsla(120, 100%, 87%, 0.392)",lineHeight:"2",paddingRight:"30px",}}>{element.newTitle}</h1>
+      <h1 
+      style={{textAlign:"right", background: "hsla(120, 100%, 87%, 0.392)",
+      lineHeight:"2",paddingRight:"30px",fontSize:"30px",fontWeight:"500"}}
+      >{element.newTitle}</h1>
       <div><img src={element.images} alt={element.newTitle} style={{width:"500px",marginBottom:"20px"}}/></div>
       <div style={{padding:"20px", background: "hsla(120, 100%, 87%, 0.392)",lineHeight:"2.5"}}>{element.newContent}</div>
       <div style={{textAlign:"left",color:"green",fontSize:"16px"}}>{element.createdAt}</div>

@@ -6,10 +6,12 @@ import './globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const metadata = {
-  title: 'kyoo page',
-  description: 'The series begins by addressing fundamental questions that often arise in the minds of Muslims and non-Muslims alike.Questions such as Why am I a Muslim? and Is Islam the religion of truth?',
-  keywords: ["islam, muslim, keyword3"],
-
+  title: 'greenzone بث مباشر',
+  description: 'مرحبًا بكم في موقعنا الإلكتروني لبث المباريات المباشرة! نحن فخورون بتقديم أفضل تجربة مشاهدة لمحبي كرة القدم حول العالم. انضم إلينا للاستمتاع بأحدث الأحداث الرياضية وأكثرها إثارة.',
+  keywords: ["live, kora live, match live,بث مباشر,برشلونة,بث مباشر ميسي,بث مباشر انتر ميامي,الدوري الامريكي,ترتيب الدوري الامريكي,ترتيب انتر ميامي,لايف كورة,كورة لايف"],
+  icons: {
+    icon: '/1.svg',
+  }
 }
 
 export default function RootLayout({ children }) {
