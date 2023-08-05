@@ -1,95 +1,58 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "@/app/page.module.css";
+import Link from "next/link";
+
+export const metadata = {
+  title: 'بث مباشر  Green Zone',
+  description: 'شاهد على موقع المنطق الخضراء بث مباشر لأهم مباريات ميسي في انتر ميامي ومباريات الدوري الأمريكي ومباريات الدوري السعودي',
+  keywords: ["kora", "live football", "intermiami live", "ميسي في انتر ميامي", "الدوري الأمريكي", "ترتيب الدوري الأمريكي", "بث مباشر انتر ميامي"],
+  icons: {
+    icon: '/1.svg',
+  }
+};
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+      <h1>بث مباشر لمباريات كرة القدم</h1>
+      <h4>شاهد أهم المباريات في موقعنا في البث المباشر</h4>
+      <div>
+        موقع Green Zone هو موقع رياضي يهتم بنقل أخبار الرياضة واللاعبين ويغطي أخبار الانتقالات الصيفية والشتوية بين الأندية نحن نسعى لتوفير خدمة مميزة لزوارنا عبر تزويدهم بروابط مباشرة لمشاهدة المباريات على الهواء مباشرة لأهم مباريات كرة القدم الأوروبية والعربية وكذلك كرة القدم في أمريكا بما في ذلك فريق انتر ميامي الذي انضم إليه حديثًا الأسطورة ليونيل ميسي
+
+        ونحن ملتزمون بتغطية مباريات الدوري السعودي الذي استقطب العديد من نجوم وأساطير كرة القدم من جميع أنحاء العالم يمكن للمستخدمين الاعتماد علينا لمتابعة أحداث المباريات والأخبار الرياضية الهامة والمثيرة ونحرص على تزويد الجمهور بالتحليلات الدقيقة والتقارير المفصلة
+
+        في Green Zone نحرص دائمًا على تقديم محتوى رياضي ذو جودة عالية يلبي احتياجات واهتمامات جمهورنا نحن نفهم أهمية الرياضة في حياة الكثيرين ونسعى لتوفير تجربة ممتعة ومثيرة للمتابعين سواء كانوا مشجعين مخلصين لفرق معينة أو مهتمين بالعبقرية والمهارات الفردية للاعبين
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <h2>ميسي و رونالدو معا</h2>
+      <Image
+        src="https://www.nastol.com.ua/pic/201601/2560x1440/nastol.com.ua-162437.jpg"
+        alt="ميسي و رونالدو معا"
+        className={styles.handleImg}
+        layout="responsive"
+        width={500}
+        height={500}
+        objectFit="cover"
+        objectPosition="center"
+      />
+      <div>
+        الموقع Green Zone هو منصة رياضية تهتم بتغطية أخبار الرياضة والرياضيين وتركز على أحداث الانتقالات الصيفية والشتوية بين الأندية نحن نهدف إلى تقديم تجربة فريدة لجمهورنا من خلال تزويدهم بروابط مباشرة لمشاه
       </div>
+      <h3>روابط البث المباشر للمباريات الحالية</h3>
+      <div className={styles.linkLive}>
+        <h1>لمشاهدة روابط البث المباشر للمباريات الحالية </h1>
+        <Link href="/live">اضغط هنا لمشاهدة البث</Link>
+      </div>
+      <div>
+        موقع المنطقة الخضراء GreenZone يقدم لك مشاهدة أبرز مباريات اليوم بث مباشر على موقعه الأصلي سواء كنت تستخدم الجوال أو الحاسوب بجودة عالية وبدون تقطيع يضم المنطقة الخضراء مجموعة من السيرفرات المميزة ما يسمح لك بمشاهدة المباريات المهمة والبطولات العالمية والأوروبية ودوريات العربية بشكل مباشر عبر رابط الموقع الرسمي على مختلف السيرفرات
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+        تقدم المنصة أيضا مباريات دوري المصري وتتيح لك متابعة فرقك المفضلة من الدوريات الأوروبية والعربية مثل فريق برشلونة وريال مدريد في الدوري الإسباني ليفربول ومانشستر سيتي ومانشستر يونايتد وتشيلسي وباريس سان جيرمان في الدوري الإنجليزي وفرق أوروبية أخرى عديدة على منصة جرين زون وبالإضافة إلى ذلك يمكنك متابعة مباريات دوري أبطال أوروبا بشكل حصري وكذلك دوري أبطال أفريقيا وجميع بطولات الدوري الأوروبي والعالمي بما في ذلك كأس العالم
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        من خلال GreenZone ستكون على اطلاع دائم بنتائج المباريات بشكل لحظي ومتابعة البث المباشر للحظة بلحظة دون أي انقطاعات كما يمكنك مشاهدة كل المباريات اليومية الجديدة بدون أي إعلانات مزعجة والوصول إلى البث المباشر عبر رابط واحد يعمل بلا توقف ويتناسب مع جميع المستخدمين على منصة GreenZone Live لذا استمتع بأفضل تجربة مشاهدة للمباريات الرياضية عبر موقع المنطقة الخضراء وتابع أحداث الرياضة المثيرة في الوقت الحقيقي
+      </div>
+      <div className={styles.linkLive}>
+        <h1>لمشاهدة روابط البث المباشر للمباريات الحالية </h1>
+        <Link href="/live">اضغط هنا لمشاهدة البث</Link>
       </div>
     </main>
-  )
+  );
 }
