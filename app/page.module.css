@@ -108,7 +108,7 @@
 }
 
 .match a {
-    color: rgb(119, 2, 29) !important;
+    color: rgb(136, 4, 35) !important;
     transition: all 0.3s;
 }
 
@@ -134,5 +134,8 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
+    }
+    .match a{
+        font-size: 16px;
     }
 }
