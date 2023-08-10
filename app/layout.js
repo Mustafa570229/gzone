@@ -4,6 +4,7 @@ import Footer from './component/Footer';
 
 import './globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Head from 'next/head';
 
 export const metadata = {
   title: 'greenzone بث مباشر',
@@ -17,6 +18,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html dir="rtl" lang="ar">
+      <Head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8531563006408715"
+     crossorigin="anonymous"></script>
+     
+      </Head>
       <body className="">
         <MainNav/>
         <div>{children}</div>

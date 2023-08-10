@@ -1,28 +1,17 @@
 export default function sitemap() {
   return [
     {
-      url: 'https://kyoo.fun',
+      url: 'https://greenzone.today',
       lastModified: new Date(),
     },
     {
-      url: 'https://kyoo.fun/chains',
+      url: 'https://greenzone.today/live',
       lastModified: new Date(),
     },
     {
-      url: 'https://kyoo.fun/The-journey-of-certainty',
+      url: 'https://greenzone.today/news',
       lastModified: new Date(),
     },
-    {
-      url: 'https://kyoo.fun/Be-Proud-of-Islam',
-      lastModified: new Date(),
-    },
-    {
-      url: 'https://kyoo.fun/Stories',
-      lastModified: new Date(),
-    },
-    {
-      url: 'https://kyoo.fun/Mix',
-      lastModified: new Date(),
-    },
+    
   ]
 }

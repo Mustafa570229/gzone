@@ -5,6 +5,6 @@ export default function robots() {
         allow: '/',
         disallow: '/private/',
       },
-      sitemap: 'https://kyoo.fun/sitemap.xml',
+      sitemap: 'https://greenzone.today/sitemap.xml',
     }
   }
