@@ -19,9 +19,8 @@ export default function RootLayout({ children }) {
   return (
     <html dir="rtl" lang="ar">
       <Head>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8531563006408715"
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8531563006408715"
      crossorigin="anonymous"></script>
-     
       </Head>
       <body className="">
         <MainNav/>
